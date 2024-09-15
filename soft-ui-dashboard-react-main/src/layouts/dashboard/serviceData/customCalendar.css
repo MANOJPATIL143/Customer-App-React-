@@ -1,0 +1,48 @@
+/* customCalendar.css */
+
+/* Change the background and hover effects for days */
+.react-calendar__tile {
+    background: #f9f9f9;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    padding: 0.75em;
+  }
+  
+  .react-calendar__tile:hover {
+    background: #007bff;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Highlight selected date */
+  .react-calendar__tile--active {
+    background-color: #007bff !important;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  /* Style weekends */
+  .react-calendar__month-view__days__day--weekend {
+    color: #d9534f;
+  }
+  
+  /* Styling the header and navigation buttons */
+  .react-calendar__navigation button {
+    color: #007bff;
+  }
+  
+  .react-calendar__navigation button:hover {
+    background-color: #e7f0fd;
+  }
+  
+  /* Calendar container */
+  .custom-calendar {
+    max-width: 66%;
+    max-height: 334px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+  }
+  
