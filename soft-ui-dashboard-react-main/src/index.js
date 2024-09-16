@@ -11,7 +11,7 @@ import { SoftUIControllerProvider } from "context";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <GoogleOAuthProvider clientId="943084565954-4sfvhsi7pdht1g0gmk7lv9496sfmie7h.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="ENTER YOUR CLIENT ID">
     <SoftUIControllerProvider>
       <App />
     </SoftUIControllerProvider>
